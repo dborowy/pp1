@@ -1,0 +1,1 @@
+print('Dominik Borowy 20')
