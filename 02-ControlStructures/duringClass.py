@@ -65,6 +65,62 @@
 #for i in range(1,11):
 #    print('{} x {} = {}'.format(x,i,x*i))
 
+##########  16
+#for i in range(1,11):
+#    print (f'1/{i} = {1/i}')
+
+##########  17
+#sumaP = 0
+#sumaNP = 0
+#for i in range(1,51):
+#    if i%2 == 0:
+#        sumaP += i
+#    else:
+#        sumaNP += i
+#print(f'Suma liczb parzystych to: {sumaP}'+'\n'+f'Suma liczb nieparzystych to: {sumaNP}')
+
+##########  18
+#x = ''
+#for i in range(1,31):
+#    if i%3 == 0 and i%5 == 0:
+#        x += 'BINGO' + ' '
+#    elif i%3 == 0:
+#        x += 'THREE' + ' '
+#    elif i%5 == 0:
+#        x += 'FIVE' + ' '
+#    else:
+#        x += str(i) + ' '
+#print(x)
+
+##########  19
+#N = int(input('Wprowadź N: '))
+#x = 'Ciąg arytmetyczny o różnicy 3: '
+#z = -2
+#while N>0:
+#    z += 3
+#    x += f'{z}'
+#    N -= 1
+#    if N>0:
+#        x += ', '
+#print(x)
+
+##########  20
+#x = 2
+#y = 5
+#if x > y:
+#    print(x)
+#else:
+#    print(y)
+
+##########  21
+#x = 3
+#y = 1 + x
+#z = 2 * x - 4
+#for n in range(z):
+#    y += n + x
+#    x = x + 1
+#print(x,y,n)
+
 ##########  22
 #lista = [15, 8, 31, 47, 2, 19]
 #listaNp = []
@@ -74,3 +130,15 @@
 #średnia = sum(listaNp)/len(listaNp)
 #print('Średnia arytmetyczna liczb nieparzystych w tym zbiorze to: {}'.format(średnia))
 
+##########  23
+#ocenySłow = ['niedostateczny','mierny','dostateczny','dobry','bardzo dobry','celujący']
+#ocenaNum = int(input('Podaj ocenę: '))
+#print(f'Ocena słownie: {ocenySłow[ocenaNum-1]}')
+
+##########  24
+#tablicaImion = ['Genowefa', 'Onufry', 'Celestyna', 'Alojzy', 'Pankracy', 'Teofil']
+#z = ''
+#for i in tablicaImion:
+#    if len(i)>len(z):
+#        z = i
+#print(z)
