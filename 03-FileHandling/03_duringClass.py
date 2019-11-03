@@ -30,4 +30,19 @@
 #    for i in tablica:
 #        file.write(str(i)+'\n')
 
-########## 14
+########## 16
+#import re
+#komunikat = 'wtorek - 23C, środa - 17C, czwartek 25C'
+#cyfry = re.findall('\d{2}',komunikat)
+#suma = 0
+#for i in cyfry:
+#    suma += int(i)
+#avgTemp = suma/len(cyfry)
+#print(avgTemp)
+
+########## 17
+#import re
+#x = 'To be, or not to be, that is the question'
+#vowels = re.findall('[aeyiou]',x)
+#print(len(vowels))
+

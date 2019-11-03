@@ -1,0 +1,20 @@
+a) /.
+b) /Poland
+c) /Poland|France|Germany
+d) /[[:alpha:]]
+e) /[[:upper:]]
+f) /[[:digit:]]
+g) /[[:^digit:]]
+h) /[[:blank:]]
+i) /[aeyiou]
+j) /[0-9]{4}
+k) /[0-9,]*%
+l) /[.,]
+m) /[[:alpha:]]+
+o) /\b\w{3}\b
+p) /\b\w{5,}\b
+q) /\bn\w*
+r) /\bthe\b
+s) /\band\b
+t) 
+u) \(.*?\)
