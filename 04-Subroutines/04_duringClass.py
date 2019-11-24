@@ -182,9 +182,18 @@
 ########### 32
 def transp(x):
     xTransp = []
+    bttm = []
     for i in range(len(x)-1):
         xTransp.append(x[i][:len(x[0])-1])
+        bttm.append(x[i][len(x[i])-1])
+    xTransp.append(bttm)
+    for i in range(len(x)):
+        xTransp[i].append(x[len(x)-1][i])
     
-    return xTransp
-mac = [[1,2,0],[0,0,3],[5,1,1]]
-print(transp(mac))
+    for i in xTransp:
+        for j in i:
+            print(j,end=' ')
+        print()
+    #print(xTransp)
+mac = [[1,2,0,2],[0,0,3,4],[5,1,1,5],[1,4,3,2]]
+transp(mac)
