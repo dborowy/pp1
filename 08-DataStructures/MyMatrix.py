@@ -1,22 +1,19 @@
 class matrix():
 
     @staticmethod
-    def create(x,y):
-        matrix = []
-        value = 0
-        for i in range(x):
-            # create single row
-            row = []
-            for j in range(y):
-                row.append(value)
-            # add row to matrix
-            matrix.append(row)
+    def create(w,h):
+        matrix = [[0 for x in range(w)] for y in range(h)]
         return matrix
-
     @staticmethod
     def print(matrix):
         for row in matrix:
             print(row)
+    @staticmethod
+    def create_unix(x):
+        m = matrix.create(x,x)
+        for z in range(len(m)):
+            m[z][z]=1
+        return m
 
-m = matrix.create(4,3)
+m = matrix.create_unix(3)
 matrix.print(m)
