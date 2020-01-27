@@ -44,7 +44,7 @@
 
 ########### 12
 
-def elo():
+""" def elo():
     netto = float(input('Podaj cenę netto:'))
     try:
         if type(netto)==int or not type(netto)==float:
@@ -53,4 +53,5 @@ def elo():
     except:
         raise ValueError('Podaj poprawną wartość')
         elo()
-elo()
+elo() """
+
